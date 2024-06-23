@@ -1,0 +1,21 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+</head>
+<body>
+    <h1>Welcome to Workout Tracker</h1>
+    <form action="/log" method="post">
+        <label for="exercise">Exercise:</label>
+        <input type="text" id="exercise" name="exercise"><br>
+        <label for="reps">Reps:</label>
+        <input type="number" id="reps" name="reps"><br>
+        <label for="weight">Weight:</label>
+        <input type="number" id="weight" name="weight"><br>
+        <input type="submit" value="Log Workout">
+    </form>
+</body>
+</html>
